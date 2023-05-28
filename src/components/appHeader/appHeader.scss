@@ -1,0 +1,27 @@
+@import '../../style/variables.scss';
+
+.app {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        color: #fff;
+        font-weight: bold;
+        font-size: 37px;
+        line-height: 37px;
+    }
+    &__menu {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 32px;
+            li {
+                margin: 0 8px;
+                color: #fff;
+            }
+        }
+    }
+}
